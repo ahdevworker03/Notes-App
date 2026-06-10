@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Note App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>My Notes</h1>
+    </header>
+    <main>
+        <button id="add-note-btn">＋ Add Note</button>
+        <div id="notes-container"></div>
+        <p id="empty-state" class="hidden">No notes yet. Add one!</p>
+    </main>
+    <div id="modal-overlay">
+        <div id="modal">
+            <h2 id="modal-title"></h2>
+            <textarea id="modal-input" maxlength="300" placeholder="Write your note..."></textarea>
+            <span id="char-count">0 / 300</span>
+            <div class="modal-actions">
+                <button id="modal-cancel-btn">Cancel</button>
+                <button id="modal-confirm-btn">Save</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
