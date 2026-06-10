@@ -2,6 +2,10 @@
 
 A clean, minimalist, and responsive note-taking application built with vanilla JavaScript, HTML5, and CSS3.
 
+## Live Preview
+
+🔗 [View the live app here](https://ahdevworker03.github.io/Notes-App/)
+
 ## Features
 
 - **Create & Edit**: Easily add new notes or modify existing ones via a sleek modal interface.
